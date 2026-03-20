@@ -1,0 +1,20 @@
+[package]
+name = "mine-tui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.100"
+crossterm = "0.29.0"
+directories = "6.0.0"
+futures = "0.3.31"
+hex = "0.4.3"
+md5 = "0.8.0"
+ratatui = "0.29.0"
+reqwest = { version = "0.12.24", features = ["json", "stream"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+sha1 = "0.10.6"
+tokio = { version = "1.48.0", features = ["full"] }
+uuid = { version = "1.18.1", features = ["v4", "fast-rng", "macro-diagnostics"] }
+zip = "6.0.0"
